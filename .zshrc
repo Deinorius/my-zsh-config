@@ -14,7 +14,7 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
 fi
 
 # Copy your AppImages and shell scripts into this folder
-export PATH="$PATH:$HOME/.local/bin
+export PATH="$PATH:$HOME/.local/bin"
 
 # Optional fastfetch inclusion with a minimal preset
 fastfetch -c $XDG_CONFIG_HOME/fastfetch/short.jsonc
